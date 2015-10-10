@@ -1747,7 +1747,7 @@ static int __devinit cypress_touchkey_probe(struct i2c_client *client,
 	int ret = 0;
 	int i;
 	int error;
-	bool bforced = false;
+	bool bforced = true;
 
 	if (!i2c_check_functionality(adapter, I2C_FUNC_I2C))
 		return -EIO;
