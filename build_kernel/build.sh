@@ -13,7 +13,7 @@ FIT=SpaceX_defconfig
 Flash="SpaceX-v0.1_Fix.Cypress-tkey_js01lte(DCM)"
 
 SETARCH=arm
-CROSS=/home/spacex/Android_Workspace/Kernel/Toolchain/arm-eabi-4.8/arm-eabi-
+CROSS=/home/spacex/Android_Workspace/Kernel/Toolchain/arm-eabi-4.8/bin/arm-eabi-
 IMG=arch/arm/boot
 DTS=arch/arm/boot/dts
 DC=arch/arm/configs
